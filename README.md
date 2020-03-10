@@ -14,6 +14,11 @@
 $ rosrun calc_around_waypoints calc_arount_waypoints
 ``` 
 
-# esult
-1. Segmentation boxes & obstacle detection boxes
-<img src="LiDAR_obj_detect_pkg/images/Screenshot from 2020-01-20 16-06-20.png" width="100%" height="100%">
+# Result
+1. 차량 초기 상태, 감지된 waypoints
+<img src="calc_around_waypoints/images/rivz1.png" width="100%" height="100%">
+<img src="calc_around_waypoints/images/terminal1.png" width="100%" height="100%">
+
+2. 차량이 주행하면서 lane change 할 수 있는 waypoints 감지
+<img src="calc_around_waypoints/images/rivz2.png" width="100%" height="100%">
+<img src="calc_around_waypoints/images/terminal2.png" width="100%" height="100%">
