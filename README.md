@@ -10,3 +10,10 @@
 * 따라서 자동차가 lane change할 수 있는 lane들을 local planner에게 republish 해줍니다.
 
 # Run
+```sh
+$ rosrun calc_around_waypoints calc_arount_waypoints
+``` 
+
+# esult
+1. Segmentation boxes & obstacle detection boxes
+<img src="LiDAR_obj_detect_pkg/images/Screenshot from 2020-01-20 16-06-20.png" width="100%" height="100%">
